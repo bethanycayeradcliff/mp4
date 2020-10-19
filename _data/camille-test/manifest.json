@@ -30,6 +30,12 @@
             "id": "https://benwbrum.github.io/mp4/camille-test/canvas-1/canvas/premiere.json",
             "label": "premiere"
           }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://benwbrum.github.io/mp4/camille-test/canvas-1/canvas/layer2.json",
+            "label": "layer2"
+          }
         ],
         "items": [
           {
