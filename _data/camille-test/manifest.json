@@ -23,6 +23,14 @@
         "id": "https://benwbrum.github.io/mp4/camille-test/canvas-1/canvas",
         "type": "Canvas",
         "duration": 4170.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://benwbrum.github.io/mp4/camille-test/canvas-1/canvas/premiere.json",
+            "label": "premiere"
+          }
+        ],
         "items": [
           {
             "id": "https://benwbrum.github.io/mp4/camille-test/canvas-1/paintings",
