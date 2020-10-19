@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://benwbrum.github.io/mp4/camille-test/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Camille test" ] },
+    "homepage": [
+      {
+        "id": "https://archive.org/details/Camille1921",
+        "type": "Text",
+        "label": { "en": [ "Home page for Camille test" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://archive.org",
+        "type": "Agent",
+        "label": { "en": [ "Internet Archive" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://benwbrum.github.io/mp4/camille-test/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 4170.0,
+        "items": [
+          {
+            "id": "https://benwbrum.github.io/mp4/camille-test/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://benwbrum.github.io/mp4/camille-test/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://archive.org/download/Camille1921/Camille%201921.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 4170.0
+                },
+                "target": "https://benwbrum.github.io/mp4/camille-test/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
